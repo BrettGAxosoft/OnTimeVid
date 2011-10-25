@@ -11,6 +11,7 @@
                 $this->experience=$experience;
                 $this->lang=$lang;
                 $this->education=$education;
+                $this->age=$age; //added not from original
            }
            // Getter/Setter functions for all properties in the class
            function get_name() {
