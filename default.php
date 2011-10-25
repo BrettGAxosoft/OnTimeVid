@@ -44,6 +44,7 @@
            // Utility data dump function
            function output() {
                 echo "Programmer Name: ".$this->name."<br>";
+                echo $this->age." is ".$this->age." years old";
                 echo $this->name." has ".$this->experience." years of programming experience.<br>";
                 echo $this->lang." is ".$this->name."'s favorite programming language.<br>";
                 echo $this->name." holds the degree: ".$this->education."<br><br>";
