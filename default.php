@@ -11,7 +11,7 @@
                 $this->experience=$experience;
                 $this->lang=$lang;
                 $this->education=$education;
-               $this->age=$age; //added not from original
+           //    $this->age=$age; //added not from original
            }
            // Getter/Setter functions for all properties in the class
            function get_name() {
@@ -38,13 +38,13 @@
            function set_education($neweducation) {
                 $this->education = $neweducation
            }
-           function set_age($newage) {
-                $this->age = $newage;
+           //function set_age($newage) {
+          //      $this->age = $newage;
            }
            // Utility data dump function
            function output() {
                 echo "Programmer Name: ".$this->name."<br>";
-                echo $this->age." is ".$this->age." years old";
+            //    echo $this->age." is ".$this->age." years old";
                 echo $this->name." has ".$this->experience." years of programming experience.<br>";
                 echo $this->lang." is ".$this->name."'s favorite programming language.<br>";
                 echo $this->name." holds the degree: ".$this->education."<br><br>";
