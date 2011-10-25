@@ -46,9 +46,9 @@
            }
       }
       // Instantiating a programmer
-      $paul = new Programmer('Paul Conrad',12,'C++','Bachelor of Science in Computer Science');
+      $paul = new Programmer('John Doe,12,'C++','Bachelor of Science in Software Engineering');
       $paul->output();
-      // Oops, Paul has programmed alot longer than 12 year, really is 22 years
-      $paul->set_experience(22);
+      // Oops, John has programmed alot longer than 12 year, really is 20 years
+      $paul->set_experience(20);
       $paul->output();
  ?>
