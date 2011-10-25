@@ -36,7 +36,10 @@
                 return $this->education;
            }
            function set_education($neweducation) {
-                $this->education = $neweducation;
+                $this->education = $neweducation
+           }
+           function set_age($newage) {
+                $this->education = $newage;
            }
            // Utility data dump function
            function output() {
