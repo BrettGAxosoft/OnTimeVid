@@ -1,6 +1,6 @@
 <?php
       class Programmer {
-           // Class Properties - list of properties
+           // Class Properties
            var $name;         // Programmer's name
            var $experience;   // How long has been programming
            var $lang;         // Favorite Language
