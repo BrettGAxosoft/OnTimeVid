@@ -13,7 +13,7 @@
                 $this->education=$education;
               $this->age=$age; //added not from original
            }
-           // Getter/Setter functions for all properties in the class
+           // Getter/Setter functions for all properties in the class test
            function get_name() {
                 return $this->name;
            }
