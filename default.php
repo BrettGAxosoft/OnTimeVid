@@ -3,7 +3,7 @@
            // Class Properties
            var $name;         // Programmer's name
            var $experience;   // How long has been programming
-           var $lang;         // Favorite Language //testing
+           var $lang;         // Favorite Language
            var $education;    // Highest degree earned
            // Class Constructor - function same name as the class
            function Programmer($name, $experience, $lang, $education) {
