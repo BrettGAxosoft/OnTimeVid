@@ -1,0 +1,3 @@
+[submodule "Awesome-xkcd"]
+	path = Awesome-xkcd
+	url = https://github.com/caffeinewriter/Awesome-xkcd.git
